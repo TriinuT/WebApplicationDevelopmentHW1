@@ -1,0 +1,67 @@
+
+
+button {
+    background-color: #0026ff;
+    width: 60%;
+    color: white;
+    padding: 15px;
+    margin: 20%;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    margin: 8px 0;
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+
+button:hover {
+    opacity: 0.6;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 50%;
+    padding: 75px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10%;
+    background-color: lightgrey;
+}
+
+.link:hover {
+    color: green;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+header {
+    text-align: left;
+}
+
+.post {
+    border-radius: 25px;
+    width: 30%;
+    height: 40%;
+    padding: 75px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10%;
+    background-color: lightcyan;
+}
+
+div small {
+    font-size: smaller;
+}
+
+.post > p {
+    font-size: large;
+}
