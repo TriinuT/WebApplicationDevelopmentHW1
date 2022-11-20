@@ -16,9 +16,15 @@
             <strong><a href="index.html" class = "link">Home</a></strong>
         </div>
 
-        <div style="right;">
-            <img src="res/images/me.png" width="40" height="40" alt="My Image" style="float: right; margin-right: 15px;">
+        <div style="right;" class="dropdown">
+            <img onclick="userInfo()" class="dropimg" src="/Users/triinuto/WebApplicationDevelopmentHW1/WebApplicationDevelopmentHW1/WebApplicationDevelopmentHW1-main/res/images/me.png" width="40" height="40" alt="My Image" style="float: right; margin-right: 15px;">
+            <div id="myDropdown" class="user-info">
+                <p>Penno Jõgi</p>
+                <p>penno.jogi@ut.ee</p>
+                <p>logout</p>
+            </div>
         </div>
+        <script src="script.js"></script>
 
     </section>
 

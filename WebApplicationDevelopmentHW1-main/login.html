@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="res/css/styleL.css">
+    <link rel="stylesheet" href="Users/triinuto/WebApplicationDevelopmentHW1/WebApplicationDevelopmentHW1/WebApplicationDevelopmentHW1-main/res/css/styleL.css">
     <title> Login Page </title>
 
     <style>
@@ -19,9 +19,15 @@
             <strong><a href="index.html" class = "link">Home</a></strong>
         </div>
 
-        <div style="right;">
-            <img src="res/images/me.png" width="40" height="40" alt="My Image" style="float: right; margin-right: 15px;"> 
+        <div style="right;" class="dropdown">
+            <img onclick="userInfo()" class="dropimg" src="Users/triinuto/WebApplicationDevelopmentHW1/WebApplicationDevelopmentHW1/WebApplicationDevelopmentHW1-main/res/images/me.png" width="40" height="40" alt="My Image" style="float: right; margin-right: 15px;">
+            <div id="myDropdown" class="user-info">
+                <p>Penno Jõgi</p>
+                <p>penno.jogi@ut.ee</p>
+                <p>logout</p>
+            </div>
         </div>
+        <script src="script.js"></script>
 
     </section>
 
@@ -59,4 +65,3 @@
 </div>
 
 </form>
-
