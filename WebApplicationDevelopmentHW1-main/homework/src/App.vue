@@ -1,16 +1,28 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+  <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+  <PageHeader/>
+  <PageFooter/>
+  <MainPageSidenavs/>
+  <!-- <MainPageBody/> -->
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+// import MainPageBody from './components/MainPageBody.vue';
+import PageHeader from './components/PageHeader.vue';
+import PageFooter from './components/PageFooter.vue';
+import MainPageSidenavs from './components/MainPageSidenavs.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    // HelloWorld,
+    PageHeader,
+    PageFooter,
+    MainPageSidenavs
+    // MainPageBody
+}
 }
 </script>
 
